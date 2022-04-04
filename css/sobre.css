@@ -1,0 +1,59 @@
+header {
+text-align: center;
+}
+
+ul {
+text-align: center;
+}
+
+#menu li {
+list-style: none; 
+display: inline;
+}
+
+#menu li a {
+padding: 5px 100px; 
+margin: 0px;
+background: gold;
+text-decoration: none;
+color:black;
+/* cantos arredondados */
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+}
+
+#textoperfil {
+text-align: center;
+padding: 80px;
+font-size: 30px;
+color: goldenrod;
+border: black;
+}
+
+#textoempresa {
+    background-color: gold;
+    text-align: center;
+    padding: 50px 100px;
+    }
+
+    footer {
+        background-color: gold;
+        text-align: right;
+        float: inline-end;
+    }
+    
+    #redes {
+        width: 100%;
+        text-align: center;
+    }
+    #redes img {
+        width: 2%;
+        float: left;
+    }
+    
+    #redes ul li {
+        text-transform: uppercase;
+        list-style-type: none;
+        display: inline;
+    }

@@ -1,0 +1,64 @@
+header {
+text-align: center;
+}
+
+ul {
+text-align: center;
+}
+
+#menu li {
+list-style: none; 
+display: inline;
+}
+
+#menu li a {
+padding: 5px 100px; 
+margin: 0px;
+background: gold;
+text-decoration: none;
+color:black;
+/* cantos arredondados */
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+}
+
+#textoinicial {
+text-align: center;
+padding: 40px;
+font-size: 30px;
+font-style: italic;
+color: goldenrod;
+}
+
+div {
+border-color: goldenrod;
+border-style: solid;
+padding: 5px;
+display: inline-block;
+}
+
+#navimg {
+text-align: center;
+}
+
+footer {
+    background-color: gold;
+    text-align: right;
+    float: inline-end;
+}
+
+#redes {
+    width: 80%;
+    text-align: center;
+}
+#redes img {
+    width: 2%;
+    float: left;
+}
+
+#redes ul li {
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline;
+}
