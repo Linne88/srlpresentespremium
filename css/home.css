@@ -8,7 +8,7 @@ text-align: center;
 
 #menu li {
 list-style: none; 
-display: inline;
+display: inline-block;
 }
 
 #menu li a {
@@ -23,24 +23,42 @@ color:black;
 border-radius:5px;
 }
 
-#textoinicial {
+#welcome {
 text-align: center;
-padding: 40px;
+padding: 100px;
 font-size: 30px;
 font-style: italic;
 color: goldenrod;
 }
 
-div {
-border-color: goldenrod;
-border-style: solid;
-padding: 5px;
+#textoinicial {
+text-align: center;
+padding: 150px;
+font-size: 30px;
+font-style: italic;
+color: goldenrod;
+}
+
+#navimg li{
+padding: 2px;
 display: inline-block;
 }
 
-#navimg {
-text-align: center;
+#navimg li img {
+    width: 300px;
+    height: 200px;
+    border: 5px;
+    border-color: goldenrod;
+    border-style: solid;
 }
+
+#textofinal {
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    font-style: italic;
+    color: goldenrod;
+    }
 
 footer {
     background-color: gold;
@@ -52,6 +70,7 @@ footer {
     width: 80%;
     text-align: center;
 }
+
 #redes img {
     width: 2%;
     float: left;
@@ -62,3 +81,11 @@ footer {
     list-style-type: none;
     display: inline;
 }
+
+.clearfix::after {
+    display: table;
+    float: none;
+    content: "";
+    clear: both;
+    overflow: auto;
+  }
